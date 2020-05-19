@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>About</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		*{
+		margin: 0;
+		box-sizing: border-box;
+		list-style: none;
+		text-decoration: none;
+	}
+	.logo {
+		color: white;
+		margin-left: 20px;
+		font-size: 33px;
+		font-weight: 600;
+		font-family: 'Lucida Console', sans-serif;
+	}
+	.nav {
+		padding: 0;
+		margin: 0;
+		height: 80px;
+		/*DodgerBlue*/
+		background-color: #1E90FF;
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+	
+	.nav-position {
+        display: flex;
+		margin-left: 20px;
+      }
+	  
+	.nav-item {
+        margin-left: 30px;
+		color: #f2f2f2;
+		font-weight: 500;
+		font-size: 20px;
+		padding: 7px 13px;
+		border-radius: 7px;
+    }
+	
+	.nav-icon-position{
+		display: flex;
+		margin-left: auto;
+		margin-right: 20px;
+	}
+	
+	.na-icon--position{
+		margin-right: 20px;
+	}
+	
+		/*hover effect*/
+	.nav-item:hover{
+		/*MediumSlateBlue*/
+		background: #7B68EE;
+		transition: .5s;
+	}
+	.container{
+		padding-left: 350px;
+		padding-right: 350px;
+		padding-bottom: 30px;
+	}
+	
+	.main{
+		text-align: left;
+		background-color: #FFFAFA;
+		height: 400px;
+	}
+	
+	.main1{
+		text-align: left;
+		background-color: white;
+		height: 400px;
+	}
+	
+	.main2{
+		text-align: left;
+		background-color: #FFFAFA;
+		height: 400px;
+	}
+	
+	.hello{
+		font-family: 'Courier New', sans-serif;
+		font-size: 70px;
+		font-weight:100;
+		padding-top:85px;
+		padding-left:400px;
+		padding-right:400px;
+	}
+	
+	.sub-hello{
+		font-family: 'Arial';
+		padding-top:10px;
+		padding-left:404px;
+		padding-right:325px;
+		font-size: 18px;
+	}
+	
+	.email{
+		padding-top:20px;
+		font-family: 'Courier New', sans-serif;
+		font-size: 40px;
+		font-weight: bold;
+	}
+	
+	.cpline{
+	  padding-top:40px;
+	  padding-left:350px;
+	  padding-right:350px;
+	  }
+	</style>
+	
+  </head>
+  <body>
+	<div class="nav">
+		<div class="logo">
+			cppcompiler
+		</div>
+        <div class="nav-position">
+		  <a class="nav-item" href="../index.html" role="button">Home</a>
+		  <a class="nav-item" href="about.html" role="button">About</a>
+		  <a class="nav-item" href="https://blog.cppcompiler.com" role="button">Blog</a>
+		  <a class="nav-item" href="https://github.com/electron65" role="button">GitHub</a>
+		  <a class="nav-item" href="letter.html" role="button">Letter</a>
+        </div>
+		<div class="nav-icon-position">
+			<div class="na-icon--position">
+			<a href="about.html">
+				<img src="../icons/iconmonstr-email-10-32.png" title="Contact">
+			</a>
+			</div>
+			<div class="na-icon--position">
+			<a href="https://blog.cppcompiler.com">
+				<img src="../icons/iconmonstr-edit-10-32.png" title="Blog">
+			</a>	
+			</div>
+			<div class="na-icon--position">
+			<a href="https://github.com/electron65">
+				<img src="../icons/GitHub-Mark-32px.png" title="GitHub">
+			</a>
+			</div>
+		</div>
+    </div>
+	<div class="main">
+		<div class="hello">
+		About...
+		</div>
+		<div class="sub-hello">
+		Hi, I welcome you once again for visiting CPPCOMPILER! I am very glad that you visited!. This site is dedicated for myself &#40; electron65	&#41;.
+		There won't be any post here, but there will be posts on my blog! There are plenty of links that you can find around here. So, stay tuned!		
+		</div>
+	</div>
+	<div class="main1">
+		<div class="hello">
+		Why?...
+		</div>
+		<div class="sub-hello">
+		I started making my first website after practice making servers. When I mean making servers, I mean setting up the usual applications on the server.
+		For example, connecting to the server via SSH, making a FTP server and uploading or downloading files or even making a Minecraft server to play games with friends.
+		Lastly, I made the web engine work and saw the test page online. For me, the test page was not enough. So I started to make my homepage.
+		</div>
+	</div>
+	<div class="main2">
+		<div class="hello">
+		Contact!...
+		</div>
+		<div class="sub-hello">
+		If you have any questions please contact me through the following E-mail address.
+		<center><div class="email">
+		purnapple65@gmail.com
+		</div>
+		<div class="email">
+		jongwanko@gmail.com
+		</div>
+		</div></center>
+	</div>
+	<div class="cpline">
+		<hr> 
+	</div>
+
+    <script src="script.js"></script>
+  </body>
+  
+  <footer class="container">
+	<p>&copy; cppcompiler 2020-2022</p>
+  </footer>
+  
+</html>

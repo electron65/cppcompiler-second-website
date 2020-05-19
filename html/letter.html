@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Letter</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		*{
+		margin: 0;
+		box-sizing: border-box;
+		list-style: none;
+		text-decoration: none;
+		width: auto;
+		height: auto;
+	}
+	.logo {
+		color: white;
+		margin-left: 20px;
+		font-size: 33px;
+		font-weight: 600;
+		font-family: 'Lucida Console', sans-serif;
+		height: auto;
+	}
+	.nav {
+		padding: 0;
+		margin: 0;
+		height: 80px;
+		/*DodgerBlue*/
+		background-color: #1E90FF;
+		display: flex;
+		align-items: center;
+	}
+	
+	.nav-position {
+        display: flex;
+		margin-left: 20px;
+      }
+	  
+	.nav-item {
+        margin-left: 30px;
+		color: #f2f2f2;
+		font-weight: 500;
+		font-size: 20px;
+		padding: 7px 13px;
+		border-radius: 7px;
+    }
+	
+	.nav-icon-position{
+		display: flex;
+		margin-left: auto;
+		margin-right: 20px;
+	}
+	
+	.na-icon--position{
+		margin-right: 20px;
+	}
+	
+		/*hover effect*/
+	.nav-item:hover{
+		/*MediumSlateBlue*/
+		background: #7B68EE;
+		transition: .5s;
+	}
+	.container{
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+
+      .title {
+		padding: 30px;
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+
+      .subtitle {
+		padding: 0px;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+	  
+	  .row {
+	  display: flex;
+	  padding-left: 450px;
+	  padding-right:450px;
+	  padding-bottom: 30px;
+	  }
+
+      .main {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+	  
+	  .main-option{
+	  margin-top: 15px;
+	  margin-bottom: 10px;
+	  font-size: 20px;
+	  font-weight: bold;
+	  }
+
+      .select {
+        display: flex;
+      }
+
+      .items {
+        width: 300px;
+        height: 400px;
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 6px;
+        text-align: center;
+      }
+	  
+	  .items-detail{
+	  padding-top:5px;
+	  padding-left:9px;
+	  padding-right:9px;
+	  }
+	  
+      .items-title {
+        font-size: 1.5rem;
+        background: rgba(0,0,0, .03);
+        text-align: center;
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 1px solid black;
+      }
+
+      .items-button {
+        padding: .2rem 1rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+        color: white;
+        background-color: #007bff;
+        background-image: none;
+        border-color: #007bff;
+        margin-top: 10px;
+      }
+	  
+	  .items-button-position{
+		padding-top:7px;
+		padding-bottom: 7px;
+	  }
+	  
+	  .last-box-size{
+		margin-right: 400px;
+		margin-left: 400px;
+	  }
+	  
+	  .last-box{
+		border-width:3px; 
+		border-style: dashed;
+		border-color: #red;
+		margin-bottom: 20px;
+	  }
+	  
+	  .warn{
+	  	padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+	  }
+	  
+	  .electron65{
+		padding-top:7px;
+	  }
+	  
+	  .cpline{
+		padding-left:350px;
+		padding-right:350px;
+	  }
+	</style>
+	
+  </head>
+  <body>
+	<div class="nav">
+		<div class="logo">
+			cppcompiler
+		</div>
+        <div class="nav-position">
+		  <a class="nav-item" href="../index.html" role="button">Home</a>
+		  <a class="nav-item" href="about.html" role="button">About</a>
+		  <a class="nav-item" href="https://blog.cppcompiler.com" role="button">Blog</a>
+		  <a class="nav-item" href="https://github.com/electron65" role="button">GitHub</a>
+		  <a class="nav-item" href="letter.html" role="button">Letter</a>
+        </div>
+		<div class="nav-icon-position">
+			<div class="na-icon--position">
+			<a href="about.html">
+				<img src="../icons/iconmonstr-email-10-32.png" title="Contact">
+			</a>
+			</div>
+			<div class="na-icon--position">
+			<a href="https://blog.cppcompiler.com">
+				<img src="../icons/iconmonstr-edit-10-32.png" title="Blog">
+			</a>	
+			</div>
+			<div class="na-icon--position">
+			<a href="https://github.com/electron65">
+				<img src="../icons/GitHub-Mark-32px.png" title="GitHub">
+			</a>
+			</div>
+		</div>
+    </div>
+
+	<div class="title">
+        인터넷 편지쓰기
+	</div>
+	<div class="subtitle">
+		각 버튼을 클릭하시면 편지를 작성 할 수 있는 해당 사이트로 접속을 합니다!"
+	</div>
+	<div class="row">
+		<div class="select">
+			<div class="items">
+				<div class="items-title">
+				훈련병 찾기
+				</div>
+				<div class="items-detail">
+					<div class="main-option">
+					< 육군훈련소 >
+					</div>
+					<div class="items-detail">
+					훈련병의 입영날짜, 생년월일과 이름이 필요합니다.
+					</div>
+					<div class="items-button-position">
+					<a class="items-button" href="http://www.katc.mil.kr/katc/community/children.jsp" role="button">훈련병 찾기</a>
+					</div>
+					<div class="items-detail">
+					ex) 입영일 : 20200629 
+					</div>
+					<div class="items-detail">
+					 생년월일 : 20010817
+					</div>
+					<div class="items-detail">
+					이름 : 홍길동
+					</div>
+				</div>
+			</div>	
+		</div> 
+		
+
+		<div class="select">
+			<div class="items">
+				<div class="items-title">
+				편지쓰기
+				</div>
+				<div class="items-detail">
+					<div class="main-option">
+					< 육군훈련소 >
+					</div>
+					<div class="items-detail">
+					800자 미만으로 편지 작성 가능
+					</div>
+					<div class="items-detail">
+					본인 인증 필요
+					</div>
+					<div class="items-button-position">
+					<a class="items-button" href="http://www.katc.mil.kr/katc/community/children.jsp" role="button">편지쓰기</a>
+					</div>
+					<div class="main-option">
+					< The Camp >
+					</div>
+					<div class="items-detail">
+						2000자 이하로 편지 작성 가능
+					</div>
+					<div class="items-detail">
+						사진첨부 가능
+					</div>
+					<div class="items-detail">
+					카카오톡으로 가입 가능
+					</div>
+					<div class="items-button-position">
+					<a class="items-button" href="https://www.thecamp.or.kr/main/viewWebMain.do" role="button">편지쓰기</a>
+					</div>
+				</div>
+			</div>	
+		</div> 
+
+		<div class="select">
+			<div class="items">
+				<div class="items-title">
+				이용안내
+				</div>
+				<div class="items-detail">
+					<div class="main-option">
+					< The Camp 공지 >
+					</div>
+					<div class="items-detail">
+					더 캠브 공지 사항 인편 작성 방법!
+					</div>
+					<div class="items-button-position">
+					<a class="items-button" href="https://www.thecamp.or.kr/notice/viewNoticeDetail.do?noticeMgrSeq=13494" role="button">이용안내</a>
+					</div>
+					<div class="main-option">
+					< cppcompiler 블로그 >
+					</div>
+					<div class="items-detail">
+						electron65가 정리한 인편 작성 방법!
+					</div>
+					<div class="items-button-position">
+					<a class="items-button" href="https://blog.cppcompiler.com/entry/%EC%9D%B8%ED%8E%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95" role="button">이용안내</a>
+					</div>
+				</div>
+			</div>	
+		</div> 
+	</div>
+	<div class="last-box-size">
+		<div class="last-box">
+			<div class="warn">
+			<i>
+			안녕하세요, 사이트 제작자 입니다. 현 페이지는 인편을 작성하는데 필요한<b> &#40; 본인 논산 훈련소를 위한 &#41; </b> 링크를 <b>편의상</b> 걸어둔 것을 미리 말씀드립니다. 따라서, <b>공식적인 사이트가 아님으로</b>, 사이트 제작자가 훈련소에 있는 동안 사이트가 <b>비정상적으로 작동하는 경우</b>, 혹은 더 많은 군대 관련된 정보가 필요하시다면, 본 사이트를 이용하시기 보다 검색하시기 바람니다. <b>착오 없으시기 바람니다</b>. 감사합니다.
+			<b> <div>
+			ps. 사이트 제작자는 6월에 입대합니다. 다녀오겠습니다!
+			</b></div>		
+			</i>
+			<div class="electron65">
+			- 사이트 제작자 electron65 올림 -
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="cpline">
+		<hr> 
+	</div>
+    <script src="script.js"></script>
+  </body>
+  
+  <footer class="container">
+	<p>&copy; cppcompiler 2020-2022</p>
+  </footer>
+  
+</html>

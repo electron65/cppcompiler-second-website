@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		*{
+		margin: 0;
+		box-sizing: border-box;
+		list-style: none;
+		text-decoration: none;
+	}
+	.logo {
+		color: white;
+		margin-left: 20px;
+		font-size: 33px;
+		font-weight: 600;
+		font-family: 'Lucida Console', sans-serif;
+	}
+	.nav {
+		padding: 0;
+		margin: 0;
+		height: 80px;
+		/*DodgerBlue*/
+		background-color: #1E90FF;
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+	
+	.nav-position {
+        display: flex;
+		margin-left: 20px;
+      }
+	  
+	.nav-item {
+        margin-left: 30px;
+		color: #f2f2f2;
+		font-weight: 500;
+		font-size: 20px;
+		padding: 7px 13px;
+		border-radius: 7px;
+    }
+	
+	.nav-icon-position{
+		display: flex;
+		margin-left: auto;
+		margin-right: 20px;
+	}
+	
+	.na-icon--position{
+		margin-right: 20px;
+	}
+	
+		/*hover effect*/
+	.nav-item:hover{
+		/*MediumSlateBlue*/
+		background: #7B68EE;
+		transition: .5s;
+	}
+	
+	.main{
+		text-align: left;
+		background-color: #FFFAFA;
+		height: 400px;
+	}
+	
+	.hello{
+		font-family: 'Arial';
+		font-size: 70px;
+		font-weight:100;
+		padding-top:85px;
+		padding-left:400px;
+		padding-right:400px;
+	}
+	
+	.sub-hello{
+		font-family: 'Arial';
+		padding-top:10px;
+		padding-left:404px;
+		padding-right:325px;
+		font-size: 18px;
+
+	}
+	
+	.button-hello{
+		padding-top: 20px;
+		padding-left:404px;
+	}
+	
+	.more-button{
+	    padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .5rem;
+		border-color: #1E90FF;
+        color: white;
+        background-color: #1E90FF;
+        background-image: none;
+        margin-top: 30px;
+	}
+	
+	.more-button:hover{
+		background: #7B68EE;
+		transition: .5s;
+	}
+	
+	.container{
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+	.row{
+		display: flex;
+		padding-bottom: 50px;
+	}
+	
+	.headings {
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	.vbutton-position{
+		padding-top: 20px;
+	}
+	.vbutton{
+		padding: .3rem 0.6rem;
+        font-size: 1.0rem;
+        border-radius: .5rem;
+		border-color: #708090;
+        color: white;
+		/*stale gray*/
+        background-color: #708090;
+        background-image: none;
+	}
+
+	</style>
+	
+  </head>
+  <body>
+	<div class="nav">
+		<div class="logo">
+			cppcompiler
+		</div>
+        <div class="nav-position">
+		  <a class="nav-item" href="index.html" role="button">Home</a>
+		  <a class="nav-item" href="html/about.html" role="button">About</a>
+		  <a class="nav-item" href="https://blog.cppcompiler.com" role="button">Blog</a>
+		  <a class="nav-item" href="https://github.com/electron65" role="button">GitHub</a>
+		  <a class="nav-item" href="html/letter.html" role="button">Letter</a>
+        </div>
+		<div class="nav-icon-position">
+			<div class="na-icon--position">
+			<a href="html/about.html">
+				<img src="icons/iconmonstr-email-10-32.png" title="Contact">
+			</a>
+			</div>
+			<div class="na-icon--position">
+			<a href="https://blog.cppcompiler.com">
+				<img src="icons/iconmonstr-edit-10-32.png" title="Blog">
+			</a>	
+			</div>
+			<div class="na-icon--position">
+			<a href="https://github.com/electron65">
+				<img src="icons/GitHub-Mark-32px.png" title="GitHub">
+			</a>
+			</div>
+		</div>
+    </div>
+	
+	<div class="main">
+		<div class="hello">
+		Hello, World!
+		</div>
+		<div class="sub-hello">
+		Welcome to CPPCOMPILER! Where everything starts from 0 and ends with 1. 
+		I sometimes start projects from scratch. You can see some of the projects at my blog! 
+		Click on the button below to check out more!
+		</div>
+		<div class="button-hello">
+		<p><a class="more-button" href="https://blog.cppcompiler.com" role="button">Learn more &raquo;</a></p>
+		</div>
+	</div>
+	
+	<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="headings">
+        <h2>E65A Architecture</h2>
+        <p>
+		E65A is an 8bit CPU currently developing by electron65. This project started when electron65 was trying to modify the Z80 CPU made by Zilog. Although Z80 may not be as sophisticated as contemporary CPU's, it can still be hard to understand and copy the CPU by itself. Please click on the link to know more.
+        <div class="vbutton-position">
+			<p><a class="vbutton" href="https://blog.cppcompiler.com/entry/Designing-a-CPU-Part-1?category=776374" role="button">View details &raquo;</a></p>
+		</div>
+      </div>
+      <div class="headings">
+        <h2>Blueappleteam Blog</h2>
+		<p>Blueappleteam blog was first assembled on December 6, 2019. The blog was made because of the massive amount of report pages made during project name "Making a Simple Graphic Card & Sound Card." Currently electron65 is working on a new blog because of low participation on the Blueappleteam blog. You can check the blog on the link below.</p>
+        <div class="vbutton-position">
+			<p><a class="vbutton" href="https://www.blueappleteam.ml" role="button">View details &raquo;</a></p>
+		</div>
+      </div>
+      <div class="headings">
+        <h2>Time to join the army</h2>
+        <p>In South Korea, men who are over 18 must join the army and serve for a specific term. The time has finally come for the Blueappleteam members to do their duty in the army. If you are a best friend or close relative, please send us letters! It will be a great support for us! You can learn how to send letters on the link below.</p>
+        <div class="vbutton-position">
+			<p><a class="vbutton" href="html/letter.html" role="button">View details &raquo;</a></p>
+		</div>
+      </div>
+    </div>
+    <hr>
+
+  </div> <!-- /container -->
+    <script src="script.js"></script>
+  </body>
+  
+  <footer class="container">
+	<p>&copy; cppcompiler 2020-2022</p>
+  </footer>
+  
+</html>
